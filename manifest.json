@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Bitbucket Issues Notifier",
+	"description": "Notificaciones de issues de Bitbucket",
+	"version": "1.0",
+	"icons": {
+		"128": "128.png"
+	},
+	"permissions": [
+		"unlimitedStorage",
+		"notifications"
+	],
+	"background": {
+      "page": "background.html"
+    },
+    "browser_action": {
+		"default_title": "Bitbucket Issues Notifier",
+		"default_icon": "bit.png",
+		"default_popup": "popup.html"
+	}
+}
